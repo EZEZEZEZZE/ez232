@@ -2258,7 +2258,7 @@ runcode(function()
 end)
 
 
-local alreadydetectedlist = {}
+--[[local alreadydetectedlist = {}
 local Blackdetector = {Enabled = false}
 runcode(function()
 	Blackdetector = GuiLibrary.ObjectsThatCanBeSaved.UtilityWindow.Api.CreateOptionsButton({
@@ -2282,7 +2282,7 @@ runcode(function()
 		end,
 		HoverText = "weta mald"
 	})
-end)
+end)--]]
 
 runcode(function()
 	local PlayAnnoyer = {Enabled = false}
